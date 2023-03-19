@@ -1,0 +1,48 @@
+    /* Style the form container */
+    .form-container {
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Style the form inputs and labels */
+    label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    /* Style the form buttons */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    button.delete {
+        background-color: #f44336;
+    }
+
+    button.add {
+        background-color: #008CBA;
+    }
